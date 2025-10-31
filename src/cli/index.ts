@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { Command } from 'commander';
-import { analyzeCode } from '../lib/analyzer.js';
+import { analyzeCode } from '../lib/analyzer';
 
 const program = new Command();
 
